@@ -1,0 +1,37 @@
+.flex{
+    display:grid;
+    grid: row;
+    grid-column: 100px 100px 100px 100px;
+    padding-left:180px;
+    padding-top:19px;
+    background-color: lightblue;
+}
+.m{
+    padding-right:15px;
+}
+.thumbnail-2{
+    margin-top:10px;
+}
+
+
+
+<div class="flex">
+    <div>
+        <div class="thumbnail">
+            <img class="m" src="pics/pic1.jpg">
+            <img class="m" src="pics/pp.jpg">
+            <img class="m" src="pics/pic3.jpg">
+            <img class="m"  src="pics/pic4.jpg">
+        </div>   
+    </div>
+
+    <div>
+        <div class="thumbnail-2">
+            <img class="m" src="pics/pic5.jpg">
+            <img class="m" src="pics/pic6.jpg">
+            <img class="m" src="pics/pic7.jpg">
+            <img class="m"  src="pics/pic8.jpg">
+            <img class="m"  src="pics/pic9.jpg">
+        </div>   
+    </div>
+</div>
